@@ -1,0 +1,174 @@
+div,
+textarea {
+  font-size: 16px;
+  font-family: "Operator Mono", Menlo, Monaco, 'Courier New', monospace;
+  font-weight: 500;
+}
+
+body, .roam-topbar {
+    background: #E1E1E1
+}
+
+#right-sidebar > div {
+    background-color: #E9ECD6;
+    border-left: 1px rgba(255, 255, 255, .06) solid;
+}
+
+div.CodeMirror-scroll {
+    background-color: #EEEEEE;
+    font: "Operator Mono";
+}
+
+.rm-page-ref-tag {
+    background: #ffecd9;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.06);
+    padding: 3px;
+    color: #000911;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0 3px;
+    border-radius: 2px;
+}
+
+.rm-pages-title-text strong {
+    font-weight: 600;
+}
+.title-children-text {
+  	color: #000;
+  	font-weight: 300;
+}
+.rm-all-pages .table .rm-pages-row.rm-pages-row-header {
+    background: #A9AAAA;
+    border-radius: 0;
+}
+.rm-all-pages .table .rm-pages-row .rm-pages-col {
+    align-self: center;
+  	color: #000
+}
+.bp3-text-small span {
+    font-size: 14px;
+}
+.rm-all-pages .table .rm-pages-row.rm-pages-row-header .rm-pages-title-col span,
+.rm-all-pages .table .rm-pages-row.rm-pages-row-header .rm-pages-col span {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.rm-clickable-pill,
+.rm-clickable-pill.level1-pill {
+    background-color: #ffc76a;
+    opacity: 1;
+    color: #000;
+}
+.checkmark {
+    background: #fff;
+}
+.check-container input:checked ~ .checkmark {
+    background: #000;
+}
+.check-container input:checked ~ .checkmark:after {
+    border-color: #fff;
+}
+.rm-all-pages .table .rm-pages-row {
+    border-color: rgba(255,255,255,0.16);
+}
+
+.rm-level2 {
+    font-size: 1.5em;
+}
+.rm-level3 {
+    color: #939aae;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+/* Custom data tags */
+span.rm-page-ref[data-tag="Teaching"] {
+    background: #F49679;
+    color: #fff;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+span.rm-page-ref[data-tag="Supervision"] {
+    background: #E8AF07;
+    color: #fff;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+span.rm-page-ref[data-tag="msw"] {
+    background: #F47FA7;
+    color: #fff;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+span.rm-page-ref[data-tag="inbox"] {
+    background: #795548;
+    color: #FFFFFF;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+span.rm-page-ref[data-tag="evergreen"] {
+    background: #BB305C;
+    color: #000;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+span.rm-page-ref[data-tag="life"] {
+    background: #EC98FB;
+    color: #fff;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+span.rm-page-ref[data-tag="Productivity"] {
+    background: #1ABBCF;
+    color: #000;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="seedling"] {
+    background: #db3b8d;
+    color: #000;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="seed"] {
+   background: #007909;
+    color: #fff;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Reflections"] {
+   background: #A9ADAE;
+    color: #000;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="someday/maybe"] {
+   background: #057B99;
+    color: #FFFFFF;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="spirituality"] {
+   background: #0034AC;
+    color: #FFFFFF;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
